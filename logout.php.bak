@@ -1,0 +1,20 @@
+<?php
+session_start();
+unset($_SESSION['uname']);
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logout</title>
+    <script>
+        // JavaScript function to display pop-up message
+        function logoutMessage() {
+            alert("Logged out successfully!");
+            window.location = "userlogin.php"; // Redirect to login page
+        }
+    </script>
+</head>
+<body onload="logoutMessage()"> <!-- Call the logoutMessage function when the page loads -->
+</body>
+</html>

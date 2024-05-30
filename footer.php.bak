@@ -1,0 +1,11 @@
+ <!-- ======= Footer ======= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+
+        <p style="color:white;" align="center">&copy; Copyrights Hotel Table Booking. All rights reserved.</p>
+
+      </div>
+    </div>
+
+  </footer><!-- End  Footer -->
